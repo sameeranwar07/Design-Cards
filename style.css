@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+.columns{
+    float: left;
+    width: 33.33%;
+    padding: 15px
+}
+
+.price{
+    list-style: none;
+    border:2px solid rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+.price{
+    box-shadow: 0px 7px 12px 0 rgb(133, 133, 133);
+    cursor: pointer;
+}
+
+.price .header{
+    background-color: rgb(255, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.price li{
+    border-bottom: 2px solid #eee;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(229, 228, 228);
+}
+
+.price .rate{
+    font-size: 40px ;
+}
+
+.button{
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color:rgb(0, 0, 0)
+}
+
+.button:hover{
+    background-color: red;
+    color:rgb(255, 255, 255)
+}
